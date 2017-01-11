@@ -48,3 +48,5 @@ gcc will warn about uninitialized stack variables (`-Wuninitialized`)
 ```c++
 int i;             // if static then initialized with default value, otherwise uninitialized
 ```
+
+# Class object initialization

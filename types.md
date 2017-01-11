@@ -3,6 +3,7 @@
 - `bool`
 - `char`, `wchar_t`, `char16_t`, `char32_t`
 - `short`, `int`, `long`, `long long`
+- `enum`, `enum class`
 
 Integral types can be `signed` or `unsigned`.
 
@@ -18,4 +19,3 @@ Integral types can be `signed` or `unsigned`.
 
 # Complex types
 - `struct`, `union`, `class`
-- `enum`, `enum class`

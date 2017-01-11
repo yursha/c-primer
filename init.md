@@ -51,7 +51,7 @@ gcc will warn about uninitialized stack memory (`-Wuninitialized`)
 ```c++
 int i;             // if static then initialized with default value, otherwise uninitialized
 ```
-For user-defined types a default constructor will be called.
+For user-defined types a default constructor will be called if one exists. Otherwise memberwise initialization will be done with built-in typed membered left uninitialized.
 ```c++
 vector<int> v;     // default constructor
 ```

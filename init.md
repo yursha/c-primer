@@ -47,7 +47,7 @@ Objects in stack or heap memory are left uninitialized if they are of a built-in
 ```c++
 vector<int> v;     // default constructor
 ```
-gcc will warn about uninitialized stack variables (`-Wuninitialized`)
+gcc will warn about uninitialized stack memory (`-Wuninitialized`)
 ```c++
 int i;             // if static then initialized with default value, otherwise uninitialized
 ```

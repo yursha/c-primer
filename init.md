@@ -4,6 +4,7 @@
 
 # List initialization
 Does not allow narrowing.
+Recommended by Stroustroup.
 ```c++
 vector<int> v {1}; // initializer-list constructor
 int i {1}; 	       // constructor (1)

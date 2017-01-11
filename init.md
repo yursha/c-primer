@@ -16,6 +16,7 @@ int i = {1};  // constructor (1)
 ```
 
 # C-style initialization
+Allows narrowing.
 ```c++
 vector<int> v = 1; ??
 int i = 1;    // constructor (1)

@@ -25,8 +25,8 @@ int i = 1;    // constructor (1)
 
 # Constructor initialization
 ```c++
-vector<int> v(1); // constructor vector(int)
-int i;
+vector<int> v(1);  // constructor vector(int)
+int i(1);          // 1
 ```
 
 # Initialization with type deduction
@@ -36,7 +36,7 @@ auto i = 1;        // type is deduced to int
 # Default Initialization
 ```c++
 vector<int> v {};  // default constructor
-int i {};          // default value, which is suitable representation of 0
+int i {};          // default value. For built-in types the default value is a suitable representation of zero (0, 0.0, nullptr, '\0') 
 ```
 # Missing Initialization
 ```c++

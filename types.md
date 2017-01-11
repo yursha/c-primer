@@ -1,8 +1,14 @@
 # Fundamental machine-level types
+## Integral types
 - `bool`
-- `char`, `wchar_t`
+- `char`, `wchar_t`, `char16_t`, `char32_t`
 - `int`, `long long`
+
+Integral types can `signed` or `unsigned`.
+
+## Floating-point types
 - `float`, `double`, `long double`
+
 - `void`
 
 # Derived machine-level types

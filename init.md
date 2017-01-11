@@ -48,7 +48,7 @@ gcc will warn about uninitialized stack memory (`-Wuninitialized`)
 ```c++
 int i;             // if static then initialized with default value, otherwise uninitialized
 ```
-Objects in static memory are always fully initialized with default values.
+Objects in static memory are always fully initialized with default values which are usually read from durable storage (disk).
 
 Objects in stack or heap memory are left uninitialized if they are of a built-in type. The reason is to improve performace when initialization is not needed, ex:
 ```c++

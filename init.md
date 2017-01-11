@@ -56,6 +56,6 @@ char buf[1024];
 ```
 
 # Class object initialization
-- memberwise initialization
+- memberwise initialization (works only if all fields are public, usually struct)
 - copy initialization
 - default initialization (default constructor)

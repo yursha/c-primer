@@ -31,12 +31,15 @@ int i;
 
 # Initialization with type deduction
 ```c++
-auto i = 1; // type is deduced to int
+auto i = 1;        // type is deduced to int
 ```
-# Initialization with default values.
+# Default Initialization
 ```c++
 vector<int> v {};  // default constructor
+int i {};          // default value, which is suitable representation of 0
+```
+# Missing Initialization
+```c++
 vector<int> v;     // default constructor
-int i {};     // default value (0)
-int i;        // uninitialized
+int i;             // uninitialized
 ```

@@ -1,11 +1,11 @@
-# Fundamental primitive types
+# Fundamental machine-level types
 - `bool`
 - `char`, `wchar_t`
 - `int`, `long long`
 - `float`, `double`, `long double`
 - `void`
 
-# Derived primitive types
+# Derived machine-level types
 - `int*` - pointers
 - `char[]` - arrays
 - `double&`, `vector<int>&&` - references

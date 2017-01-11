@@ -36,7 +36,7 @@ auto i = 1;        // type is deduced to int
 # Default Initialization
 ```c++
 vector<int> v {};  // default constructor
-int i {};          // default value.
+int i {};          // default value 0.
 ```
 For built-in types the default value is a suitable representation of zero (`0`, `0.0`, `nullptr`, `'\0'`) 
 

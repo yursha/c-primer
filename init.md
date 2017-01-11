@@ -59,3 +59,6 @@ char buf[1024];
 - memberwise initialization (works only if all fields are public, usually struct)
 - copy initialization
 - default initialization (default constructor)
+
+- direct initialization (implicit conversions are allowed)
+- copy initialization (implicit conversions are not allowed)

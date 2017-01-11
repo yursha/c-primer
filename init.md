@@ -50,3 +50,6 @@ int i;             // if static then initialized with default value, otherwise u
 ```
 
 # Class object initialization
+- memberwise initialization
+- copy initialization
+- default initialization (default constructor)

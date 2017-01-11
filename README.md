@@ -1,1 +1,1 @@
-# c/++ language primer
+# c/c++ language primer

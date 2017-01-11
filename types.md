@@ -4,7 +4,7 @@
 - `char`, `wchar_t`, `char16_t`, `char32_t`
 - `short`, `int`, `long`, `long long`
 
-Integral types can `signed` or `unsigned`.
+Integral types can be `signed` or `unsigned`.
 
 ## Floating-point
 - `float`, `double`, `long double`

@@ -1,4 +1,4 @@
-# Machine value types
+# Primitive value types
 ## Integral
 - `bool`
 - `char`, `wchar_t`, `char16_t`, `char32_t`
@@ -11,7 +11,7 @@ Integral types can `signed` or `unsigned`.
 
 - `void`
 
-# Machine address types
+# Primitive address types
 - `int*` - pointers
 - `char[]` - arrays
 - `double&`, `vector<int>&&` - references

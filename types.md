@@ -2,7 +2,7 @@
 ## Integral types
 - `bool`
 - `char`, `wchar_t`, `char16_t`, `char32_t`
-- `int`, `long long`
+- `short`, `int`, `long`, `long long`
 
 Integral types can `signed` or `unsigned`.
 

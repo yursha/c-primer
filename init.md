@@ -43,5 +43,8 @@ For built-in types the default value is a suitable representation of zero (`0`, 
 # Missing Initialization
 ```c++
 vector<int> v;     // default constructor
+```
+gcc will warn about uninitialized stack variables (`-Wuninitialized`)
+```c++
 int i;             // if static then initialized with default value, otherwise uninitialized
 ```

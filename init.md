@@ -41,6 +41,9 @@ int i {};          // default value 0.
 For built-in types the default value is a suitable representation of zero (`0`, `0.0`, `nullptr`, `'\0'`) 
 
 # Missing Initialization
+Objects in static memory are always fully initialized with default values.
+Objects in stack or heap memory are left uninitialized if they are of a built-in type.
+
 ```c++
 vector<int> v;     // default constructor
 ```

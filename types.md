@@ -17,7 +17,5 @@ Integral types can be `signed` or `unsigned`.
 - `double&`, `vector<int>&&` - references
 
 # Complex types
-- `struct`
-- `class`
-- `enum`
-- `enum class`
+- `struct`, `union`, `class`
+- `enum`, `enum class`

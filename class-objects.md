@@ -12,3 +12,15 @@
 - delete/cleanup (release resources and deallocate memory - destructor job)
   + when a stack frame containing an objects goes out of scope
   + when a `delete` is called on a heap object
+
+```c++
+class X {
+  X(SomeType);             // conversion constructor
+  X(SomeType1, SomeType2); // ordinary constructor
+  X(const X&);             // copy constructor
+  X(X&&);                  // move constructor
+  X& operator=(const X&);  // copy assignment operator
+  X& operator=(X&&);       // move assignment operator
+  ~X();                    // destructor
+}
+```

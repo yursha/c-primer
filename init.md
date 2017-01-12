@@ -57,9 +57,13 @@ vector<int> v;     // default constructor
 ```
 
 # Class object initialization
+## Compiler-generated constructors
 - memberwise initialization (works only if all fields are public, usually struct)
 - copy initialization
-- default initialization (default constructor)
+- default initialization (fields of built-in types may be left unitinitialized if stack or heap memory is used for an object)
+## User-defined constructors
+
+
 
 - direct initialization (implicit conversions are allowed)
 - copy initialization (implicit conversions are not allowed)

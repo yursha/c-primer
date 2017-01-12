@@ -9,6 +9,7 @@
   + when assigned with a `=` operator (copy assignment operator is called)
 - move
   + when returned from a function
+  + when consuming temporary value
   + when assigned a temporary object it is moved from.
 - delete/cleanup (release resources and deallocate memory - destructor job)
   + when a stack frame containing an objects goes out of scope

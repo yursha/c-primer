@@ -4,7 +4,8 @@
   + when `new` operator is called
 - copy
   + when passed as function arguments
-  + when assigned with a `=` operator
+  + when assigned with a `=` operator (copy assignment operator is called)
+  + when copy constructor is called
 - move
   + when returned from a function
 - delete/cleanup

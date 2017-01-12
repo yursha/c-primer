@@ -2,9 +2,9 @@
 - create (allocate and initialize memory)
   + when variable of object type is declared
   + when `new` operator is called
-- copy construction
-  + when passed as function arguments
-  + when copy constructor is called
+  + copy construction
+    + when passed as function arguments
+    + when copy constructor is called
 - copy assignment
   + when assigned with a `=` operator (copy assignment operator is called)
 - move

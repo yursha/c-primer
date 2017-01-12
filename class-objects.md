@@ -9,6 +9,6 @@
 - move
   + when returned from a function
   + when assigned a temporary object it is moved from.
-- delete/cleanup
+- delete/cleanup (release resources and deallocate memory - destructor job)
   + when a stack frame containing an objects goes out of scope
   + when a `delete` is called on a heap object

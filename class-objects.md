@@ -15,7 +15,7 @@
 
 ```c++
 class X {
-  X(SomeType);             // conversion constructor
+  X(SomeType);             // type conversion constructor
   X(SomeType1, SomeType2); // ordinary constructor
   X(const X&);             // copy constructor
   X(X&&);                  // move constructor

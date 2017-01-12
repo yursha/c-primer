@@ -19,3 +19,7 @@ Integral types can be `signed` or `unsigned`.
 
 # Complex types
 - `struct`, `union`, `class`
+
+`union` type has specialized use cases:
+- Saving memory. By storing objects with not overlapping value lifetimes at the same location.
+- Type punning (reinterpretation). I.e. storing value as one type and then reading it as another type.

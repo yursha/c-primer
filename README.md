@@ -10,3 +10,4 @@
 - http://www.geeksforgeeks.org/c/
 - http://www.geeksforgeeks.org/c-plus-plus/
 - http://www.geeksforgeeks.org/category/c-puzzles/
+- [C++ Standard Draft](http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4618.pdf)

@@ -1,0 +1,103 @@
+ INFO: http server starting:8080:21559
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:1
+ INFO: SEND:index.html:1
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:2
+ INFO: SEND:scott.jpg:2
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:3
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET /page2.html HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:4
+ INFO: SEND:page2.html:4
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/page2.html**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:5
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:6
+SORRY: file extension type not supported:GET /favicon.ico
+SORRY: failed to read browser request:
+SORRY: failed to read browser request:SORRY: failed to read browser request:
+
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:10
+ INFO: SEND:index.html:10
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:11
+ INFO: SEND:scott.jpg:11
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:12
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:13
+ INFO: SEND:index.html:13
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:14
+ INFO: SEND:scott.jpg:14
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:15
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:16
+ INFO: SEND:index.html:16
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:17
+ INFO: SEND:scott.jpg:17
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:18
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:19
+ INFO: SEND:index.html:19
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:20
+ INFO: SEND:scott.jpg:20
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:21
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: http server starting:8080:21652
+ERROR: system call:bind Errno=98 exiting pid=21652
+ INFO: http server starting:8080:21675
+ERROR: system call:bind Errno=98 exiting pid=21675
+ INFO: http server starting:8080:21682
+ERROR: system call:bind Errno=98 exiting pid=21682
+ INFO: http server starting:8080:21698
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:1
+ INFO: SEND:index.html:1
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:2
+ INFO: SEND:scott.jpg:2
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:3
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET /page2.html HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:4
+ INFO: SEND:page2.html:4
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/page2.html**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:5
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:6
+ INFO: SEND:index.html:6
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:7
+ INFO: SEND:scott.jpg:7
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:8
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET /page2.html HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:9
+ INFO: SEND:page2.html:9
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/page2.html**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:10
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:11
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:12
+ INFO: SEND:index.html:12
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:13
+ INFO: SEND:scott.jpg:13
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:14
+SORRY: file extension type not supported:GET /favicon.ico
+ INFO: http server starting:8080:21951
+ERROR: system call:bind Errno=98 exiting pid=21951
+ INFO: http server starting:8080:21966
+ERROR: system call:bind Errno=98 exiting pid=21966
+ INFO: http server starting:8080:21988
+ERROR: system call:bind Errno=98 exiting pid=21988
+ INFO: http server starting:8080:22001
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:1
+SORRY: file extension type not supported:GET /index.html
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:2
+SORRY: file extension type not supported:GET /index.html
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Pragma: no-cache**Cache-Control: no-cache**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:3
+SORRY: file extension type not supported:GET /index.html
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:4
+SORRY: file extension type not supported:GET /index.html
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:5
+SORRY: file extension type not supported:GET /index.html
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:6
+SORRY: file extension type not supported:GET /index.html
+ INFO: http server starting:8080:22059
+ INFO: request:GET / HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Cache-Control: max-age=0**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:1
+SORRY: file extension type not supported:GET /index.html
+ INFO: request:GET /scott.png HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:2
+SORRY: failed to open file:scott.png
+ INFO: request:GET /scott.jpg HTTP/1.1**Host: localhost:8080**Connection: keep-alive**Upgrade-Insecure-Requests: 1**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:3
+ INFO: SEND:scott.jpg:3
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: localhost:8080**Connection: keep-alive**User-Agent: Mozilla/5.0 (X11; CrOS x86_64 9460.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.113 Safari/537.36**Accept: image/webp,image/apng,image/*,*/*;q=0.8**Referer: http://localhost:8080/scott.jpg**Accept-Encoding: gzip, deflate, br**Accept-Language: en-US,en;q=0.8,ru;q=0.6****:4
+SORRY: file extension type not supported:GET /favicon.ico
